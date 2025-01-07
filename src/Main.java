@@ -9,11 +9,9 @@ import java.sql.ResultSet;
 public class DatabaseValidation {
 
     public static void main(String[] args) {
-        // إعداد Selenium (إذا احتجت تشغيل المتصفح)
         System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
         WebDriver driver = new ChromeDriver();
 
-        // إعداد الاتصال بقاعدة البيانات
         String url = "jdbc:mysql://localhost:3306/Warehouse";
         String user = "root";
         String password = "root";
